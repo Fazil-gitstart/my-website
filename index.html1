@@ -1,3 +1,4 @@
+<body>
 <section class="doctor-booking">
     <h2>Book a Doctor Appointment</h2>
 
@@ -17,3 +18,5 @@
         </button>
     </div>
 </section>
+</body>
+</html>
