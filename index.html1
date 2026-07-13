@@ -1,82 +1,19 @@
-<!-- Hero Section -->
-<section class="hero">
-    <h1>Book Your Doctor Appointment Online</h1>
-    <p>Find experienced doctors and schedule appointments quickly.</p>
-    <a href="appointment.html" class="btn">Book Appointment</a>
-</section>
-
-<!-- Search -->
-<section class="search">
-    <h2>Find a Doctor</h2>
-    <input type="text" placeholder="Search by Doctor Name">
-    <input type="text" placeholder="Specialization">
-    <button>Search</button>
-</section>
-
-<!-- Services -->
-<section class="services">
-    <h2>Our Services</h2>
-    <div class="card">General Physician</div>
-    <div class="card">Cardiology</div>
-    <div class="card">Dermatology</div>
-    <div class="card">Pediatrics</div>
-</section>
-
-<!-- Doctors -->
-<section class="doctors">
-    <h2>Top Doctors</h2>
+<section class="doctor-booking">
+    <h2>Book a Doctor Appointment</h2>
 
     <div class="doctor-card">
-        <img src="images/doctor1.jpg" alt="Doctor">
-        <h3>Dr. John Smith</h3>
-        <p>Cardiologist</p>
-        <p>10+ Years Experience</p>
-        <button>Book Now</button>
+        <h3>Dr. RAHIL PASHA SA</h3>
+        <p>Schedule your appointment with Dr. Rahil Pasha SA for expert medical consultation.</p>
+        <button onclick="window.location.href='appointment.html?doctor=RahilPashaSA'">
+            Book Appointment
+        </button>
     </div>
 
     <div class="doctor-card">
-        <img src="images/doctor2.jpg" alt="Doctor">
-        <h3>Dr. Sarah Johnson</h3>
-        <p>Dermatologist</p>
-        <p>8+ Years Experience</p>
-        <button>Book Now</button>
+        <h3>Dr. ROUSHNI</h3>
+        <p>Book an appointment with Dr. Roushni for professional healthcare services.</p>
+        <button onclick="window.location.href='appointment.html?doctor=Roushni'">
+            Book Appointment
+        </button>
     </div>
 </section>
-
-<!-- Appointment -->
-<section class="appointment">
-    <h2>Book Appointment</h2>
-
-    <form>
-        <input type="text" placeholder="Full Name" required>
-        <input type="email" placeholder="Email" required>
-        <input type="tel" placeholder="Phone Number" required>
-        <input type="date" required>
-        <select>
-            <option>Select Doctor</option>
-            <option>Cardiologist</option>
-            <option>Dermatologist</option>
-            <option>Pediatrician</option>
-        </select>
-        <button type="submit">Confirm Appointment</button>
-    </form>
-</section>
-
-<!-- About -->
-<section class="about">
-    <h2>About Our Hospital</h2>
-    <p>We provide trusted healthcare services with experienced doctors, modern facilities, and easy online appointment booking.</p>
-</section>
-
-<!-- Contact -->
-<section class="contact">
-    <h2>Contact Us</h2>
-    <p>📍 Bangalore, Karnataka</p>
-    <p>📞 +91 98765 43210</p>
-    <p>✉ support@healthcare.com</p>
-</section>
-
-<!-- Footer -->
-<footer>
-    <p>© 2026 HealthCare Appointment System. All Rights Reserved.</p>
-</footer>
