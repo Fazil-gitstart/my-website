@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#222;
+    color:white;
+    padding:20px;
+}
+
+nav a{
+    color:white;
+    margin-right:15px;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+button{
+    padding:12px 25px;
+    background:#007BFF;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
